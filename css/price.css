@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+@media screen and (min-width: 754px) {
+    .screen-res {
+        width: 720px;
+    }
+    .info-cell {
+      height: 55px;
+    }
+}
+
+@media screen and (min-width: 977px) {
+    .screen-res {
+        width: 970px;
+    }
+    .info-cell {
+      height: auto;
+    }
+}
+
+@media screen and (min-width: 1185px) {
+  .screen-res {
+    width: 1170px;
+  }
+}
+
+.recommended {
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  position: relative;
+  z-index: 2;
+}
+
+
+.mb30px {
+  margin-bottom: 30px;
+}
+
+.b--border-gray {
+  border-color: #b7b7b7;
+}

@@ -1,0 +1,23 @@
+/*Custom Styles*/
+
+body {
+  color: #262626;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+ol, ul {
+  padding: 0 0 0 3em;
+  margin-bottom: 1em;
+  border-left: lightgray solid;
+  border-width: 0.1em;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  color: green;
+  border-bottom: dotted 1px;
+}

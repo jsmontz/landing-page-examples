@@ -1,0 +1,65 @@
+@media screen and (min-width: 754px) {
+    .screen-res {
+        width: 720px;
+    }
+
+    .w-200px-ns {
+      width: 300px;
+    }
+    .w-600px-ns {
+      width: 600px;
+    }
+}
+
+@media screen and (min-width: 977px) {
+    .screen-res {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1185px) {
+  .screen-res {
+    width: 1170px;
+  }
+}
+
+button {
+  border: 1px solid transparent;
+}
+
+.box-shadow-none {
+  box-shadow: none;
+}
+
+.modal {
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+}
+
+.modal-content {
+  -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+  margin-top: -10px;
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
